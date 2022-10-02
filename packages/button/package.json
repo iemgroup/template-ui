@@ -1,0 +1,13 @@
+{
+  "name": "button",
+  "version": "0.0.0",
+  "author": "dipsaus9",
+  "description": "Button description",
+  "main": "dist/button.es.js",
+  "module": "dist/button.es.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "tsc": "tsc"
+  },
+  "types": "./src/button.d.ts"
+}
