@@ -28,10 +28,6 @@ module.exports = {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/naming-convention": ["error", {
-      custom: {
-        match: true,
-        regex: "^I[A-Z]"
-      },
       format: ["PascalCase"],
       selector: "interface"
     }],
